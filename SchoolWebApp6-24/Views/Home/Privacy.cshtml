@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SchoolWebApp6_24.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center" style="height:65vh;">
+    <div class="row">
+        <div class="col-6 m-5">
+            <h1 class= my-4>@ViewData["Title"]</h1>
+
+            <p>Interested? Uhh.. maybe Mrs. Blackpaw can help you.
+                Don´t be scared, we are all goooooood here (Muhaha).</p>
+
+            <h2> How to get in? It's an easy task.</h2>
+            <ul>
+                <li>You will sign under Mrs. Blackpaw name. (It's only blackpaw for you human.)</li>
+                <li>Pick four first letters from alphabet (Only first is big.)</li>
+                <li>Pick four first digits (We don't count zero.)</li>
+                <li>Add dot to the end.</li>
+                <li>Let the magic happend - Meow!</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <img src="@Url.Content("~/images/hand-drawn-halloween-cat-illustration.png")" alt="Halloween Cat" class="img-fluid" />
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
